@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C4AECE16-134B-43F4-9444-B93EC9D26A29}|ASNFileProcessor\\ASNFileProcessor.csproj|c:\\users\\dzint\\documents\\repos\\asnfileprocessor\\asnfileprocessor\\asnfileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AECE16-134B-43F4-9444-B93EC9D26A29}|ASNFileProcessor\\ASNFileProcessor.csproj|solutionrelative:asnfileprocessor\\asnfileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AECE16-134B-43F4-9444-B93EC9D26A29}|ASNFileProcessor\\ASNFileProcessor.csproj|c:\\users\\dzint\\documents\\repos\\asnfileprocessor\\asnfileprocessor\\filewatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AECE16-134B-43F4-9444-B93EC9D26A29}|ASNFileProcessor\\ASNFileProcessor.csproj|solutionrelative:asnfileprocessor\\filewatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4AECE16-134B-43F4-9444-B93EC9D26A29}|ASNFileProcessor\\ASNFileProcessor.csproj|c:\\users\\dzint\\documents\\repos\\asnfileprocessor\\asnfileprocessor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4AECE16-134B-43F4-9444-B93EC9D26A29}|ASNFileProcessor\\ASNFileProcessor.csproj|solutionrelative:asnfileprocessor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AECE16-134B-43F4-9444-B93EC9D26A29}|ASNFileProcessor\\ASNFileProcessor.csproj|c:\\users\\dzint\\documents\\repos\\asnfileprocessor\\asnfileprocessor\\shippingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AECE16-134B-43F4-9444-B93EC9D26A29}|ASNFileProcessor\\ASNFileProcessor.csproj|solutionrelative:asnfileprocessor\\shippingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AECE16-134B-43F4-9444-B93EC9D26A29}|ASNFileProcessor\\ASNFileProcessor.csproj|c:\\users\\dzint\\documents\\repos\\asnfileprocessor\\asnfileprocessor\\asnheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AECE16-134B-43F4-9444-B93EC9D26A29}|ASNFileProcessor\\ASNFileProcessor.csproj|solutionrelative:asnfileprocessor\\asnheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AECE16-134B-43F4-9444-B93EC9D26A29}|ASNFileProcessor\\ASNFileProcessor.csproj|c:\\users\\dzint\\documents\\repos\\asnfileprocessor\\asnfileprocessor\\asnline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AECE16-134B-43F4-9444-B93EC9D26A29}|ASNFileProcessor\\ASNFileProcessor.csproj|solutionrelative:asnfileprocessor\\asnline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AECE16-134B-43F4-9444-B93EC9D26A29}|ASNFileProcessor\\ASNFileProcessor.csproj|c:\\users\\dzint\\documents\\repos\\asnfileprocessor\\asnfileprocessor\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AECE16-134B-43F4-9444-B93EC9D26A29}|ASNFileProcessor\\ASNFileProcessor.csproj|solutionrelative:asnfileprocessor\\dbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +38,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileWatcher.cs",
+              "DocumentMoniker": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\ASNFileProcessor\\FileWatcher.cs",
+              "RelativeDocumentMoniker": "ASNFileProcessor\\FileWatcher.cs",
+              "ToolTip": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\ASNFileProcessor\\FileWatcher.cs",
+              "RelativeToolTip": "ASNFileProcessor\\FileWatcher.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T08:52:42.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\ASNFileProcessor\\DbContextFactory.cs",
+              "RelativeDocumentMoniker": "ASNFileProcessor\\DbContextFactory.cs",
+              "ToolTip": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\ASNFileProcessor\\DbContextFactory.cs",
+              "RelativeToolTip": "ASNFileProcessor\\DbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T08:30:06.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ASNFileProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\ASNFileProcessor\\ASNFileProcessor.cs",
+              "RelativeDocumentMoniker": "ASNFileProcessor\\ASNFileProcessor.cs",
+              "ToolTip": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\ASNFileProcessor\\ASNFileProcessor.cs",
+              "RelativeToolTip": "ASNFileProcessor\\ASNFileProcessor.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwDIAAACzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:27:47.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ASNLine.cs",
+              "DocumentMoniker": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\ASNFileProcessor\\ASNLine.cs",
+              "RelativeDocumentMoniker": "ASNFileProcessor\\ASNLine.cs",
+              "ToolTip": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\ASNFileProcessor\\ASNLine.cs",
+              "RelativeToolTip": "ASNFileProcessor\\ASNLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:24:28.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ASNHeader.cs",
+              "DocumentMoniker": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\ASNFileProcessor\\ASNHeader.cs",
+              "RelativeDocumentMoniker": "ASNFileProcessor\\ASNHeader.cs",
+              "ToolTip": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\ASNFileProcessor\\ASNHeader.cs",
+              "RelativeToolTip": "ASNFileProcessor\\ASNHeader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:20:34.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShippingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\ASNFileProcessor\\ShippingDbContext.cs",
+              "RelativeDocumentMoniker": "ASNFileProcessor\\ShippingDbContext.cs",
+              "ToolTip": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\ASNFileProcessor\\ShippingDbContext.cs",
+              "RelativeToolTip": "ASNFileProcessor\\ShippingDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T07:16:31.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\ASNFileProcessor\\Program.cs",
               "RelativeDocumentMoniker": "ASNFileProcessor\\Program.cs",
               "ToolTip": "C:\\Users\\dzint\\Documents\\repos\\ASNFileProcessor\\ASNFileProcessor\\Program.cs",
               "RelativeToolTip": "ASNFileProcessor\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T06:15:46.075Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
