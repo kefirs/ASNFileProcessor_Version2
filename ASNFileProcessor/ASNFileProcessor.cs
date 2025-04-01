@@ -1,4 +1,6 @@
-﻿namespace ASNFileProcessor
+﻿using System.Diagnostics.Eventing.Reader;
+
+namespace ASNFileProcessor
 {
 
     /// <summary>
@@ -21,37 +23,44 @@
             {
                 try
                 {
-                    string[] lines = File.ReadAllLines(filePath);
+                    List<ASNHeader> headersToAdd = new List<ASNHeader>();
+                    List<ASNLine> linesToAdd = new List<ASNLine>();
                     ASNHeader currentHeader = null;
 
-                    foreach (string line in lines)
+                    using (var reader = new StreamReader(filePath))
                     {
-                        if (line.StartsWith("HDR"))
+                        string line;
+                        while ((line = reader.ReadLine()) != null)
                         {
-                            currentHeader = new ASNHeader
+                            if (line.StartsWith("HDR"))
                             {
-                                SupplierId = line.Substring(4, 8).Trim(), // First 7 simbols after HDR (Supplier ID)
-                                BoxId = line.Substring(97, 8).Trim(), // Next symbols after Supplier
-                            };
+                                currentHeader = new ASNHeader
+                                {
+                                    SupplierId = line.Substring(4, 8).Trim(),
+                                    BoxId = line.Substring(97, 8).Trim(),
+                                };
 
-                            _context.ASNHeaders.Add(currentHeader); // Adds new box to the database
-                            _context.SaveChanges(); // Saves changes to the database
-                        }
-                        else if (line.StartsWith("LINE") && currentHeader != null)
-                        {
-                            var productLine = new ASNLine
+                                headersToAdd.Add(currentHeader);
+                            }
+                            else if ((line.StartsWith("LINE") && currentHeader != null))
                             {
-                                ProductId = line.Substring(5, 10).Trim(), // Product ID i.e "P000001661"
-                                ISBNCode = line.Substring(42, 13).Trim(), // Product code i.e "9781473663800"
-                                Quantity = int.TryParse(line.Substring(76, 2).Trim(), out int quantity) ? quantity : (int?)null, // Quantity of the product
-                                ASNHeaderId = currentHeader.Id
-                            };
+                                var productLine = new ASNLine
+                                {
+                                    ProductId = line.Substring(5, 10).Trim(),
+                                    ISBNCode = line.Substring(42, 13).Trim(),
+                                    Quantity = int.TryParse(line.Substring(76, 2).Trim(), out int quantity) ? quantity : (int?)null,
+                                    ASNHeaderId = currentHeader.Id
+                                };
 
-                            _context.ASNLines.Add(productLine); // Adds new product to the database
-                            Console.WriteLine($"ProductId: {productLine.ProductId}, ISBNCode: {productLine.ISBNCode}, Quantity: {productLine.Quantity}, HeaderId: {currentHeader.Id}");
-                            _context.SaveChanges(); // Saves changes to the database
+                                linesToAdd.Add(productLine);
+                            }
                         }
                     }
+
+                    _context.ASNHeaders.AddRange(headersToAdd);
+                    _context.ASNLines.AddRange(linesToAdd);
+                    _context.SaveChanges();  // Pielāgo visas izmaiņas vienā reizē
+
                     break;
                 }
                 catch (IOException ex)
